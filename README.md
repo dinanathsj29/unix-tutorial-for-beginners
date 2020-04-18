@@ -132,7 +132,7 @@ In this section, you will be able to understand the fundamentals of Operating Sy
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.2-operating-system-functions.png" alt="Operating System - Functions" title="Operating System - Functions" width="500" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.2-operating-system-functions.png" alt="Operating System - Functions" title="Operating System - Functions" width="400" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image 1.2 - Operating System - Functions </figcaption>
   </figure>
 </p>
