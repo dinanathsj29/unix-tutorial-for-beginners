@@ -84,3 +84,32 @@ Topics included/covered
 1. [Introduction to Operating System](#1-introduction-to-operating-system)
     - 1.1. [What is OS (Operating System)](#11-what-is-the-operating-system)
 
+1 Introduction to Operating System
+=====================
+
+In this section, you will be able to understand the fundamentals of Operating Systems, its functions and various Operating Systems used in the world.
+
+1.1. What is the Operating System
+---------------------
+1.1. What is OS (Operating System)
+---------------------
+
+<p>
+ <figure>
+  <img src="_images-unix/1.1-operating-system-1.jpeg" alt="Operating System" title="Operating System" border="2" align="right" width="150" hspace="0" vspace="0" />
+ </figure>
+</p>
+
+- OS (Operating System) is a set of programs/package acts as an intermediary/interface between computer software, end-user and computer hardware
+- An operating system (OS) is a collection of `system software` that manages `computer hardware, software resources`, and provides common services for computer programs
+- Programs which helps to manage/communicate between software and hardware (low-level software manages hardware by controlling the execution of programs)
+- Core/brain/heart of machine's/device's software and provide an environment to execute programs
+- OS (Operating System) controls the allocation of resources and services such as (Memory, Processor, Devices, Information, controlling attached devices/peripherals)
+
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.1.operating-system-2.png" alt="Operating System" title="Operating System" width="400" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image 1.1 - Operating System </figcaption>
+  </figure>
+</p>
+
