@@ -67,10 +67,9 @@ Course/Tutorial achievement
 Course/Tutorial Goal
 ---------------------
 
-<!-- After completing/attending/finishing this Course/Tutorial, participants should be able to: -->
 By the end of this series, you will be able to understand:
 - What is the Operating System
-- Unix basics and advanced Concepts
+- Unix basics and advanced concepts
 - Unix Architecture
 - Unix Command usage
 
@@ -83,6 +82,7 @@ Topics included/covered
 =====================
 1. [Introduction to Operating System](#1-introduction-to-operating-system)
     - 1.1. [What is OS (Operating System)](#11-what-is-the-operating-system)
+    - 1.2. [Functions of Operating System](#12-functions-of-operating-system)
 
 1 Introduction to Operating System
 =====================
@@ -113,3 +113,25 @@ In this section, you will be able to understand the fundamentals of Operating Sy
   </figure>
 </p>
 
+1.2. Functions of Operating System
+---------------------
+
+**Here is the list of important functions performed by an Operating System:**
+
+- Co-ordination between Software and Hardware
+- Memory Management
+- Device Management
+- Processor Management
+- Security
+- Error detection
+- Co-ordination between User and Software
+- Control over system performance
+- Task/Internal Job scheduling
+- File Management
+
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.2-operating-system-functions.png" alt="Operating System - Functions" title="Operating System - Functions" width="500" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image 1.2 - Operating System - Functions </figcaption>
+  </figure>
+</p>
