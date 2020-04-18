@@ -83,6 +83,7 @@ Topics included/covered
 1. [Introduction to Operating System](#1-introduction-to-operating-system)
     - 1.1. [What is OS (Operating System)](#11-what-is-the-operating-system)
     - 1.2. [Functions of Operating System](#12-functions-of-operating-system)
+    - 1.3. [Popular Operating System](#13-popular-operating-system)
 
 1 Introduction to Operating System
 =====================
@@ -108,7 +109,7 @@ In this section, you will be able to understand the fundamentals of Operating Sy
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.1.operating-system-2.png" alt="Operating System" title="Operating System" width="400" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/1.1.operating-system-2.png" alt="Operating System" title="Operating System" width="500" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image 1.1 - Operating System </figcaption>
   </figure>
 </p>
@@ -135,3 +136,15 @@ In this section, you will be able to understand the fundamentals of Operating Sy
     <figcaption>&nbsp;&nbsp;&nbsp; Image 1.2 - Operating System - Functions </figcaption>
   </figure>
 </p>
+
+1.3. Popular Operating System
+---------------------
+
+Here are some popular and widely used Operating Systems (OS) - Some popular Operating Systems include:
+- Unix
+- DOS
+- Microsoft Windows
+- macOS (Apple mac)
+- Linux (Unix clone)
+- Android (Mobile OS)
+- iOS (Apple Mobile OS - iPhone, iPad, iPod)
