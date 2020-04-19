@@ -89,6 +89,7 @@ Topics included/covered
     - 2.1. [History of Unix Operating System](#21-history-of-unix-operating-system)
     - 2.2. [Features of Unix](#22-features-of-unix)
     - 2.3. [Compare different Operating System (MS-DOS, MS-Windows, Unix)](#23-compare-different-operating-system)
+    - 2.4. [Difference between different Operating System (Unix, MS-DOS, MS-Windows)](#24-difference-between-different-operating-system)
 
 1 Introduction to Operating System
 =====================
@@ -239,4 +240,37 @@ In this section, you will be able to understand the basic concepts-history of Un
 - `Graphical User Interface (GUI) `
 - `Multi-tasking` Operating System
 - Built-in networking with `TCP/IP` as the standard protocol
+
+2.4. Difference between different Operating System
+---------------------
+2.4. Difference between different Operating System (Unix, MS-DOS, MS-Windows)
+---------------------
+
+**Difference between Unix and MS-DOS**:
+
+| Unix                               | MS-DOS                            |
+| ---------------------------------- | --------------------------------- |
+| Unix can have a `GUI (Graphical User Interface)   `                      | MS-DOS does not have a GUI, it is Terminal or Commands base, `CLI (Command Line Interface) `                                                        |
+| Unix is `case-sensitive `                                                | DOS is `case-insensitive (NOT case sensitive)`                         |
+| Unix is a `Multi-User`, `Multi-Tasking` and `Multi-Process` Operating System | DOS is a `Single-User`, `Single-Tasking` and `Single-Process` Operating System |
+| Unix uses `forward slashes (/)` to separate directories                | DOS uses `backslashes (\)` to separate directories                       |
+| Unix is mainly used in Servers                                         | DOS is used in Embedded Systems                                          |
+| Unix OS uses concepts like Process priorities                          | DOS does NOT use concepts like Process priorities                       | 
+| Unix has a `Shell Script`                                                | MS-DOS has a `Batch files`                                             |
+| | |
+
+**Difference between Unix and MS-Windows**:
+
+| Unix                               | MS-Windows                        |
+| ---------------------------------- | --------------------------------- |
+| Unix is a `CUI (Command User Interface)` OS, it can have GUI             | Windows is a `GUI (Graphical User Interface)` OS                       |
+| Unix is a` Multi-User` and `Multi-Tasking` OS                          | MS-Windows is a `Single-User` and `Multi-Tasking` OS                     |
+| Unix is `case-sensitive`                                                 | MS-Windows is `case-insensitive` (NOT case sensitive)                  |
+| Unix is `NOT User friendly as it is not full of GUI` (Graphical User Interface)                                                               | Windows is `User friendly as its fully GUI` based                        |
+| Unix is `free, Open Source`, No license needed                           | Windows is a `licensed` OS |
+| Unix `supports programming` facility                                   | Windows `do not supports` programming facility                           |
+| Unix file system is a `Hierarchical` Model                             | Windows file system is a `Flat` Model |
+| Unix has a `dumpty terminals (without HDD Hard Disk)`                  | Windows do not support dumpty terminals                                  |
+| Unix is `open source but has many/multiple vendors`, who takes source code add models and create modules/variations/versions/distributions     | Windows have only one owner/vendor ie. `Microsoft Corporation`           |
+|  | |
 
