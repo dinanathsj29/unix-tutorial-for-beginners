@@ -90,6 +90,8 @@ Topics included/covered
     - 2.2. [Features of Unix](#22-features-of-unix)
     - 2.3. [Compare different Operating System (MS-DOS, MS-Windows, Unix)](#23-compare-different-operating-system)
     - 2.4. [Difference between different Operating System (Unix, MS-DOS, MS-Windows)](#24-difference-between-different-operating-system)
+3. [Unix Architecture](#3-unix-architecture)
+    - 3.1. [Different flavors/variations/varieties/versions of Unix](#31-different-flavors-of-unix)
 
 1 Introduction to Operating System
 =====================
@@ -274,3 +276,37 @@ In this section, you will be able to understand the basic concepts-history of Un
 | Unix is `open source but has many/multiple vendors`, who takes source code add models and create modules/variations/versions/distributions     | Windows have only one owner/vendor ie. `Microsoft Corporation`           |
 |  | |
 
+3 Unix Architecture
+=====================
+
+In this section, will get more information on different Unix flavors/variations/variety/version, Unix Architecture with Kernel and Shell.
+
+3.1. Different flavors of Unix
+---------------------
+
+3.1. Different variations/varieties of Unix
+---------------------
+
+There are many ie. different flavors/variations/variety/versions of UNIX available in the market, although they share common similarities. The most popular varieties of UNIX are Sun Solaris, GNU/Linux, and macOS X:
+
+| Vendor/Organization       | Unix OS flavors/variations/variety  |
+| ------------------------- | -------------------------- |
+| Amdahi Corporation        | UTS  |
+| AT&T                      | Vr4, BSD Unix, DEC Unix, macOS X, SCO Unix |
+| Compaq                    | Tru64Unix    |
+| HP                        | HP-UX  |
+| IBM                       | AIX |
+| Microsoft                 | Xenix  |
+| Red Hat                   | Linux |
+| SGI (Silicon Graphics) | TRIX  |
+| SCO (Santa Cruz Operation) | SCO Unix |
+| Sun                       | Solaris |
+|                           | Ubuntu  |
+|                           | Fedoro |
+|                           | Novell |
+|                           | Xubuntu |
+|                           | Kubuntu |
+|                           | XandOS  |
+|                           | Lunar |
+|                           | FreeBSD |
+|                           |  |
