@@ -322,7 +322,7 @@ An operating system is a collection of software, each designed for a specific fu
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="_images-unix/3.2-unix-architecture.jpg" alt="Unix Architecture" title="Unix Architecture" width="300" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/3.2-unix-architecture.jpg" alt="Unix Architecture" title="Unix Architecture" width="400" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image 3.2 - Unix Architecture | Unix system Architecture-Structure </figcaption>
   </figure>
 </p>
