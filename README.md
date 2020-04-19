@@ -88,6 +88,7 @@ Topics included/covered
 2. [Introduction to Unix](#2-introduction-to-unix)
     - 2.1. [History of Unix Operating System](#21-history-of-unix-operating-system)
     - 2.2. [Features of Unix](#22-features-of-unix)
+    - 2.3. [Compare different Operating System (MS-DOS, MS-Windows, Unix)](#23-compare-different-operating-system)
 
 1 Introduction to Operating System
 =====================
@@ -218,3 +219,24 @@ In this section, you will be able to understand the basic concepts-history of Un
 - **Unix Shell**
   - Unix Shell a command interpreter that helps to interact with Unix OS ie the Kernel. (Shell takes input/command from a user and executes programs-run command)
   
+2.3 Compare different Operating System
+---------------------
+2.3. Compare different Operating System (MS-DOS, MS-Windows, Unix)
+---------------------
+2.3. The similarity between different Operating System (MS-DOS, MS-Windows, Unix)
+---------------------
+
+**Similarity between Unix and MS-DOS**:
+
+- `Command Line Interface CLI` / Command Terminal Window / Command Prompt
+- `I/O (Input Output)` redirection concepts
+- `Hierarchical directory` structure (Root directory at the top)
+- Read-Write (RW) and execute permissions on files/folder
+- Wildcard Character support
+
+**Similarity between Unix and MS-Windows**:
+
+- `Graphical User Interface (GUI) `
+- `Multi-tasking` Operating System
+- Built-in networking with `TCP/IP` as the standard protocol
+
