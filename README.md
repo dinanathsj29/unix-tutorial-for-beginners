@@ -67,6 +67,7 @@ Course/Tutorial achievement
 Course/Tutorial Goal
 ---------------------
 
+<!-- After completing/attending/finishing this Course/Tutorial, participants should be able to: -->
 By the end of this series, you will be able to understand:
 - What is the Operating System
 - Unix basics and advanced concepts
@@ -84,6 +85,8 @@ Topics included/covered
     - 1.1. [What is OS (Operating System)](#11-what-is-the-operating-system)
     - 1.2. [Functions of Operating System](#12-functions-of-operating-system)
     - 1.3. [Popular Operating System](#13-popular-operating-system)
+2. [Introduction to Unix](#2-introduction-to-unix)
+    - 2.1. [History of Unix Operating System](#21-history-of-unix-operating-system)
 
 1 Introduction to Operating System
 =====================
@@ -97,7 +100,7 @@ In this section, you will be able to understand the fundamentals of Operating Sy
 
 <p>
  <figure>
-  <img src="_images-unix/1.1-operating-system-1.jpeg" alt="Operating System" title="Operating System" border="2" align="right" width="150" hspace="0" vspace="0" />
+  <img src="_images-unix/1.1-operating-system-1.jpeg" alt="Operating System" title="Operating System" border="2" align="right" width="200" hspace="0" vspace="0" />
  </figure>
 </p>
 
@@ -117,7 +120,7 @@ In this section, you will be able to understand the fundamentals of Operating Sy
 1.2. Functions of Operating System
 ---------------------
 
-**Here is the list of important functions performed by an Operating System:**
+**Here is the list of important functions performed by an Operating System**:
 
 - Co-ordination between Software and Hardware
 - Memory Management
@@ -140,7 +143,8 @@ In this section, you will be able to understand the fundamentals of Operating Sy
 1.3. Popular Operating System
 ---------------------
 
-Here are some popular and widely used Operating Systems (OS) - Some popular Operating Systems include:
+**Here are some popular and widely used Operating Systems (OS) - Some popular Operating Systems include**:
+
 - Unix
 - DOS
 - Microsoft Windows
@@ -148,3 +152,20 @@ Here are some popular and widely used Operating Systems (OS) - Some popular Oper
 - Linux (Unix clone)
 - Android (Mobile OS)
 - iOS (Apple Mobile OS - iPhone, iPad, iPod)
+
+2 Introduction to Unix
+=====================
+ 
+In this section, you will be able to understand the basic concepts-history of Unix operating systems, features of Unix, along with its comparison, similarities and difference between other Operating Systems in the market like MS-DOS and MS-Windows.
+
+2.1. History of Unix Operating System
+---------------------
+
+- Unix is developed by `Ken Thompson` and `Dennis Richie` at `AT&T Bell Laboratories Research Center, USA` in the year `1969`
+- Unix is multi-user, multi-tasking, and multi-processing, high-function, interactive Operating System
+- Unix is terminal ie. command prompt based `Command Line Interface/Interpreter (CLI)`, UNIX system also have a `Graphical User Interface (GUI)` similar to Microsoft Windows which provides an easy to use environment
+- Initially, Unix was written in Assembly language, First Operating System is written in HLL ie. High-Level Language (C)
+- Originally Unix is spelled as `UNICS (Uniplexed Information Computing System/Service)`
+- Later Unix is re-written in `C` language and renamed as `Unix`
+- Some of Unix OS ie. distributions are Free (Open Source - Linux) and some are not free (license needed)
+
