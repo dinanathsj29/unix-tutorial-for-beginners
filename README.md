@@ -92,6 +92,10 @@ Topics included/covered
     - 2.4. [Difference between different Operating System (Unix, MS-DOS, MS-Windows)](#24-difference-between-different-operating-system)
 3. [Unix Architecture](#3-unix-architecture)
     - 3.1. [Different flavors/variations/varieties/versions of Unix](#31-different-flavors-of-unix)
+    - 3.2. [Unix System Architecture-Structure](#32-unix-system-architecture-structure)
+          - 3.2.1. [Kernel](#321-Kernel)
+          - 3.2.2. [Shell](#322-shell)
+          - 3.2.3. [Programs](#323-programs)
 
 1 Introduction to Operating System
 =====================
@@ -310,3 +314,76 @@ There are many ie. different flavors/variations/variety/versions of UNIX availab
 |                           | Lunar |
 |                           | FreeBSD |
 |                           |  |
+
+3.2. Unix System Architecture-Structure
+---------------------
+
+An operating system is a collection of software, each designed for a specific function. Here is a basic block diagram of a Unix system Architecture-Structure:
+
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="_images-unix/3.2-unix-architecture.jpg" alt="Unix Architecture" title="Unix Architecture" width="300" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image 3.2 - Unix Architecture | Unix system Architecture-Structure </figcaption>
+  </figure>
+</p>
+
+> #### Hardware (Physical Devices)
+- The Hardware layer of the Unix Operating System controls the use of physical system resources, such as memory manager, process manager, disk drivers, devices, and so on
+- The hardware consists of all input and output peripheral devices (RAM, HDD, CPU and so on)
+
+The UNIX operating system is made up of three parts named as `the Kernel, the Shell and the Programs`:
+1. Kernel
+2. Shell
+3. Programs
+
+> #### 1. Kernel
+- The kernel is the hub/heart/core of Unix Operating System
+
+> #### 2. Shell
+- Shell is an interface between a User/User application and Kernel
+
+> #### 3. Programs / User-Application Program
+- Utility programs and applications are given by the user are handled in this layer
+
+### 3.2.1. Kernel
+
+- The kernel is the hub/heart/core of Unix Operating System
+- It acts as an interface between the Hardware and Shell layer
+- It allocates the time and memory to the programs and handles the communications in response to the system calls
+- Most of the tasks such as memory management, task scheduling, file management, and so on are performed by Kernel
+- It manages external commands in Unix
+- Manages system resources, and enforce the security scheme
+- Manages the machine's memory and allocates it to each active/currently running process
+- Manages processor interrupts, and takes care of error handling
+- Schedules the work is done by the Central Processing Unit CPU and controls how processes are executed
+- Manages the creation and terminations of processes, and the communication between processes
+- Allocates and manages resources used by each user
+- Allows user processes, including shell commands to run Kernel instructions
+
+### 3.2.2. Shell 
+
+- Shell is an interface between a User/User application and Kernel
+- Shell is the `command interpreter in Unix`, it supports a Command Line Interface, and also allows scripting
+- It serves as the interface between the User and the Kernel, helps to interact with Unix OS ie the Kernel (Shell takes input/command from a user and executes programs-run command)
+- The Shell is a Command Line Interface (CLI), As and when we type a command at the terminal, the shell interprets the command and calls the corresponding program
+- The Shell layer processes the user request
+- Shell uses standard syntax for all the commands
+- It provides a rich set of commands
+- Shell is an environment in which we can run our commands, programs and shell scripts
+- A file `"/etc/shells"` contains a list of all the Shells supported and available in the system
+
+**Different Shells available with most of the Unix variants/flavors: (Shell Types / Shell variants)**
+- Bourne shell (sh)
+- C shell (csh)
+- Korn shell (ksh)
+- TelShell (wish)
+- Bourne Again Shell (bash)
+
+### 3.2.3. Programs 
+### 3.2.3. Programs / User-Application Program
+
+- Utility programs and applications are given by the user are handled in this layer
+- The commands are themselves called as programs in Unix
+- There are various commands and utilities which you can make use of in your day to day activities. `cp, mv, cat` and `grep`, etc.
+- Data in Unix are organized into files and files are organized into directories which are further organized into a tree-like structure called as the `file system`
+
