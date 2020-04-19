@@ -93,9 +93,9 @@ Topics included/covered
 3. [Unix Architecture](#3-unix-architecture)
     - 3.1. [Different flavors/variations/varieties/versions of Unix](#31-different-flavors-of-unix)
     - 3.2. [Unix System Architecture-Structure](#32-unix-system-architecture-structure)
-          - 3.2.1. [Kernel](#321-Kernel)
-          - 3.2.2. [Shell](#322-shell)
-          - 3.2.3. [Programs](#323-programs)
+      - 3.2.1. [Kernel](#321-Kernel)
+      - 3.2.2. [Shell](#322-shell)
+      - 3.2.3. [Programs](#323-programs)
 
 1 Introduction to Operating System
 =====================
