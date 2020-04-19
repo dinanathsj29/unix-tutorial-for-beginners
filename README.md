@@ -87,6 +87,7 @@ Topics included/covered
     - 1.3. [Popular Operating System](#13-popular-operating-system)
 2. [Introduction to Unix](#2-introduction-to-unix)
     - 2.1. [History of Unix Operating System](#21-history-of-unix-operating-system)
+    - 2.2. [Features of Unix](#22-features-of-unix)
 
 1 Introduction to Operating System
 =====================
@@ -169,3 +170,51 @@ In this section, you will be able to understand the basic concepts-history of Un
 - Later Unix is re-written in `C` language and renamed as `Unix`
 - Some of Unix OS ie. distributions are Free (Open Source - Linux) and some are not free (license needed)
 
+2.2. Features of Unix
+---------------------
+
+**Mentioned below the features and capabilities supported by Unix Operating System**:
+
+- Multi-user capability
+- Multi-tasking
+- Multi-process
+- Hierarchical File Structure / Hierarchical File System
+- Open Source System
+- Portability
+- Programming Utility/Facility
+- Communication Facility
+- Security
+- Tools and Utilities
+- Piping (Pipes & Filters)
+- Help Facility - Integrated Help
+- Modularity
+- Unix Shell<br/><br/>
+- **Multi-user capability**
+  - Multiple ie. many users can use the machine simultaneously supported via terminals/command prompt
+- **Multi-tasking**
+  - Multiple programs can be run at a time
+- **Multi-process/Multi-processing**
+  - Each user can execute multiple/many/several processes simultaneously
+- **Hierarchical Structure**
+  - Unix directories/folders system are present like a tree structure to support, organize and maintain files
+- **Open Source System**
+  - Some of Unix OS ie. distributions are Free (Open Source - Linux), users can modify source code as per needs and requirements
+- **Portability**
+  - Unix allows users to transfer data/information/files/folders from one system to another
+- **Programming Utility/Facility**
+  - Unix Shell can be used as a Programming/Scripting Language
+- **Communication Facility**
+  - Communication between different users is possible by using/sharing some information
+- **Security**
+  - Unix Operating System provides System-level security controlled by the system administrator and file-level security controlled by the owner of the file/folder
+- **Tools and Utilities**
+  - Supports/provide many useful tools/software/utilities used for software development
+- **Piping**
+  - The output of the current command can be used as an input of next command/process (last-current-next process/command can be linked/chained)
+- **Help Facility - Integrated Help**
+  - Unix `man` command is used to get/view any command help
+- **Modularity**
+  - Unix Operating System consists of multiple independent modules/programs/utilities which perform a specific task
+- **Unix Shell**
+  - Unix Shell a command interpreter that helps to interact with Unix OS ie the Kernel. (Shell takes input/command from a user and executes programs-run command)
+  
