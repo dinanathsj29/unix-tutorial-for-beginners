@@ -104,7 +104,18 @@ Topics included/covered
     - 4.5. [Rules for Naming a File Directory](#45-rules-for-naming-a-file-directory)
     - 4.6. [Terms used in a directory](#46-terms-used-in-a-directory)
     - 4.7. [Types of Path Name](#47-types-of-path-name)
-
+5. [Unix Command](#5-unix-command)
+    - 5.1. [What is command](#51-what-is-command) | [Unix Command usage](#51-unix-command-usage)
+    - 5.2. [Rules of using Unix Commands](#52-rules-of-using-unix-commands)
+    - 5.3. [Types of Unix Commands](#53-types-of-unix-commands)
+    - 5.4. [cal](#54-cal)
+    - 5.5. [date](#55-date)
+    - 5.6. [history](#56-history)
+    - 5.7. [banner](#57-banner)
+    - 5.8. [who](#58-who)
+    - 5.9. [fg](#59-fg)
+    - 5.10. [ls](#510-ls) | [Listing Files](#510-listing-files)
+    
 1 Introduction to Operating System
 =====================
 
@@ -613,3 +624,203 @@ Following are the terms used in a directory:
   - Relative path name `begins with the current directory or home directory`
   - A relative path can begin with `..` or `.` for the current directory (its reference path from current directory/location)
   
+5 Unix Command
+=====================
+
+This section will discuss about UNIX commands - what is a command?, what structure we need to follow while using some of the basic Unix commands. Also will see and use some basic/essential Unix commands:
+
+5.1. What is command
+---------------------
+5.1. Unix Command usage
+---------------------
+
+- In Unix, a command is a `program that can be executed/run` 
+- Basic step is: `Type any Unix command` and then `Press Enter key`
+- For Windows and MAC operating system we can resembles command like a `point to the program icon that needs to run by double-clicking on it`
+
+5.2. Rules of using Unix Commands
+---------------------
+- Unix command may or may not have arguments or parameter (extra options provided with the command)
+- An argument can be an option or a filename
+- All Unix commands always must be entered in `small case letters (lower case letters)`
+- The general format for a Unix command is: `command options(s) filename(s)`
+- The option is usually preceded by a `dash OR minus OR -` sign  
+- Two or more options available with a command can be combined easily, like this: `ls -l -a OR ls -la`
+- There must be a space or tab between the command name and options
+
+5.3. Types of Unix Commands
+---------------------
+
+Here is a type of Unix Commands:
+
+- Simple Command
+- Complex Command
+- Compound  Command
+
+> Simple Command
+- A simple command is a `common command` that can be executed by providing the command name in the command prompt
+- Example: `date`, `cal`, `who`
+
+> Complex Command
+- A Complex command consists of a `command name with a list of arguments that together acts as a single command`
+- Example: `who am i`
+
+> Compound Command
+- A Compound Command consists of a `list of simple and/or complex commands separated by command separator, semicolon (;)` which indicates where does a command end and begin
+- Example: `date; who am i; cal`
+
+5.4. cal
+---------------------
+- `cal` = `calendar`
+- The `cal` command/utility `displays a simple calendar in a traditional format`
+- cal command is used to display the current month's calendar
+- The `ncal` command offers an alternative layout, more options and the date of Easter
+- Example: 
+  - command: `cal 3 2020` displays the calendar of month March 2020
+  - command: `cal -y` displays calendar for complete/entire year
+
+```
+
+ALIPL1008:~ dinanath$ cal
+
+     April 2020       
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30        
+
+```
+
+```
+
+ALIPL1008:~ dinanath$ ncal
+
+    April 2020        
+Mo     6 13 20 27   
+Tu     7 14 21 28   
+We  1  8 15 22 29   
+Th  2  9 16 23 30   
+Fr  3 10 17 24      
+Sa  4 11 18 25      
+Su  5 12 19 26  
+
+```
+
+```
+
+ALIPL1008:~ dinanath$ cal 3 2020
+
+     March 2020       
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+
+```
+
+5.5. date 
+---------------------
+
+- date command disp`lay date in different formats and/or set system date and time`
+- The date utility displays the date and time read from the kernel clock
+- When used to set the date and time, both the kernel clock and the hardware clock are updated
+
+```
+
+ALIPL1008:~ dinanath$ date
+Sun Apr 26 18:59:56 IST 2020
+
+```
+
+5.6. history
+---------------------
+
+- `history` command displays the history ie. `list of the commands used/executed previously`/in the past with line numbers
+- The option `-c` clears the history list by deleting all the entries
+
+```
+
+ALIPL1008:~ dinanath$ history
+    9  git status
+   10  git pull qa
+   11  git pull origin qa
+   12  git status
+   13  git pull origin qa
+   14  clear
+
+```
+
+5.7. banner 
+---------------------
+
+- `banner` command `prints a  high-resolution text banner on the system console or printer`
+- Banner prints a large, high-quality banner on the standard output
+- The output should be printed on paper of the appropriate width, with no breaks between the pages
+
+```
+
+ALIPL1008:~ dinanath$ banner WELCOME
+
+```
+
+5.8. who
+---------------------
+
+- The `who` command `display the user details who is logged in`
+- `who` command `displays data about all the users who have currently logged into the system `
+- The who utility `displays a list of all users currently logged on`, showing for each user the login name, tty name, the date and time of login, and hostname if not local
+- `who am i` command displays the effective `username of the current user`
+
+```
+
+ALIPL1008:~ dinanath$ who
+dinanath console  Apr  6 18:06 
+dinanath ttys001  Apr 27 20:33 
+
+
+ALIPL1008:~ dinanath$ who am i
+dinanath ttys001  Apr 27 20:33 
+
+```
+
+5.9. fg
+---------------------
+- The `fg` command is used to `stop/cancel all the jobs running in the terminal (in the background)`
+- Usually, `fg` command is used just before `exit` command (so that all unwanted jobs canceled and one can exit from terminal easily)
+- If `exit` command responds with the message `"There are stopped jobs"` than it is advisable to enter `fg` command and then again enter `exit` command to get out of command window/terminal/prompt/bash
+
+5.10. ls
+---------------------
+5.10. Listing Files
+---------------------
+
+- `ls` command is used to list the files and directories stored in the current directory
+
+Here is the sample output of the `ls` command:
+
+```
+
+ALIPL1008:~ dinanath$ ls
+
+Applications	Downloads	  Music       VirtualBox VMs
+Desktop		    Library		  Pictures    mongo
+Documents	    Movies		  Public      mongo-data
+
+```
+
+The command `ls` supports the `-l` option which helps you to `get more information about the listed files`
+
+```
+
+ALIPL1008:~ dinanath$ ls -l
+total 192
+
+drwxr-xr-x  15 dinanath  staff    480 Jun 16  2019 _examples-angular6-1-demo
+drwxr-xr-x  37 dinanath  staff   1184 Jun 14  2019 _images_angular7
+-rw-r--r--@  1 dinanath  staff  95050 Jul 23  2019 _notes_angular7.md
+
+```
+
