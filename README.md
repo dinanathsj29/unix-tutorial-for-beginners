@@ -115,6 +115,9 @@ Topics included/covered
     - 5.8. [who](#58-who)
     - 5.9. [fg](#59-fg)
     - 5.10. [ls](#510-ls) | [Listing Files](#510-listing-files)
+6. [Unix vs Linux](#6-unix-vs-linux) | [Difference between Unix and Linux](#6-difference-between-unix-and-linux)
+    - 6.1. [What is Linux](#61-what-is-Linux)
+    - 6.2. [Unix vs Linux](#62-unix-vs-linux)
     
 1 Introduction to Operating System
 =====================
@@ -824,3 +827,32 @@ drwxr-xr-x  37 dinanath  staff   1184 Jun 14  2019 _images_angular7
 
 ```
 
+6 Unix vs Linux
+=====================
+6 Difference between Unix and Linux
+=====================
+
+In this section/module will find head to head differences and similarities between Unix and Linux
+
+6.1. What is Linux?
+---------------------
+
+- Linux OS is built by `Linus Torewell` in the year 1991 ???
+- The name `Linux` assigned/came from the `Linux Kernel`
+- Linux is an open-source, free to use (Community Developed) operating system widely used for Computer Hardware and Software, Game Development, Tablet PCs, Mainframe computers, etc.
+- Linux is replica or duplicate of Unix but does not use the actual source code of Unix
+
+6.2. Unix vs Linux
+---------------------
+
+| Unix                               |      Linux                       |
+| ---------------------------------- | ------------------------------------ |
+| **Use**: <br/> The Unix OS can be used at Internet Servers, Workstations and PCs                              | <br/> Linux is used by Everyone! from Home users to developers and computer enthusiasts like as Linux can be installed easily on any devices                |
+| **Development and Distribution**: <br/> Unix systems are mostly developed by AT&T (Bell Laboratories) and various commercial vendors and non-profit organizations                        | Linux is developed by Open Source development community and distributed by various vendors |
+| **Architecture**: <br/>  Unix is available on PA-RISC and Itanium machines                             | <br/> Originally developed for Intel's x86 hardware, ports available for several CPU types |
+| **Processor**: <br/> Unix supports x86/x64, Sparc, Power, Itanium, PA-RISC, PowerPC, and many others              | Linux has a wider variety of processors!  Several kinds of processors are used                            |
+| **File System Support / Supported File Types**: <br/> Unix supports:  `jfs, gpfs, hfs, hfs+, ufs, xfs, zfs and vsfs file formats/systems`  | Linux supports:  `xfs, nfs, ufs, Ex2 to Ex4, jfs, ReiserFS and NTFS etc`  |
+| **Shell Interface**: <br/> Unix originally made to work in BASH (Bourne Again SHell), supports multiple command interpreters  | Linux originally made to work in BASH (Bourne Again SHell), Now it is compatible with many including BASH, Karn and C   |
+| **GUI Graphical User Interface**: <br/>  Unix initially was a Command based OS, but now it also comes with GUI knows as `Common Desktop Environment` and `Gnome`  | Linx provides two GUIs like `KDE and Gnome, But have many such as LXDE, Xfce, Unity, Mate, TWM` etc.  |
+| **License and Pricing**: <br/> Different flavors of Unix have different cost/pricing structures as per the vendors  | <br/> Linux is freely distributed and downloaded through varieties of Magazines, Books and websites, etc. There are some paid versions also but pretty cheaper than windows OS  |
+|                                    | |
