@@ -840,7 +840,7 @@ In this section/module will find head to head differences and similarities betwe
 6.1. What is Linux?
 ---------------------
 
-- Linux OS is built by `Linus Torewell` in the year 1991 ???
+- Linux OS is built by `Linus Torvalds` in the year 1991
 - The name `Linux` assigned/came from the `Linux Kernel`
 - Linux is an open-source, free to use (Community Developed) operating system widely used for Computer Hardware and Software, Game Development, Tablet PCs, Mainframe computers, etc.
 - Linux is replica or duplicate of Unix but does not use the actual source code of Unix
