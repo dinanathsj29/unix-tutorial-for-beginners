@@ -96,6 +96,14 @@ Topics included/covered
       - 3.2.1. [Kernel](#321-Kernel)
       - 3.2.2. [Shell](#322-shell)
       - 3.2.3. [Programs](#323-programs)
+4. [Unix File System](#4-unix-file-system)
+    - 4.1. [What is File?](#41-what-is-file)
+    - 4.2. [Directories and Sub-directories](#42-directories-and-sub-directories)
+    - 4.3. [Types of Files](#43-types-of-files) | [File System in Unix](#43-file-system-in-unix)
+    - 4.4. [Representation of File Types](#44-representation-of-file-types)
+    - 4.5. [Rules for Naming a File Directory](#45-rules-for-naming-a-file-directory)
+    - 4.6. [Terms used in a directory](#46-terms-used-in-a-directory)
+    - 4.7. [Types of Path Name](#47-types-of-path-name)
 
 1 Introduction to Operating System
 =====================
@@ -387,3 +395,221 @@ The UNIX operating system is made up of three parts named as `the Kernel, the Sh
 - There are various commands and utilities which you can make use of in your day to day activities. `cp, mv, cat` and `grep`, etc.
 - Data in Unix are organized into files and files are organized into directories which are further organized into a tree-like structure called as the `file system`
 
+4 Unix File System
+=====================
+
+This section will be discussing file management in Unix. We will dive deep into Unix File System - what exactly is the file? Unix file structure, types of files, along with directories and sub-directories.
+
+4.1. What is File?
+---------------------
+
+`All data in Unix is organized into files`. All files are organized into directories. These directories are organized into a tree-like structure called the filesystem.
+
+The file system is central to how Unix organizes information, and all the information that needs to be stored and retrieved uses the file system.
+
+When you work with Unix - one way or another, you spend most of your time working with files. This tutorial will help you understand how to create and remove files, copy and rename them, create links to them, etc.
+
+- The file is a `container for storing content, records or details, information`
+- `Everything in Unix is considered as a File, including physical devices such as USB devices, CD Drives, DVD-ROMs, Floppy Disk Drives (FDD)` and so on
+- Input and Output (I/O) devices are also considered to be files in Unix System
+- Every file in the file system has a unique name with a `unique inode number`
+- Files in the Unix system grouped into directories, same as folders in Windows environment
+- On a Unix system, everything is a file, if something is not a file - it is a `process`
+- File attributes are kept in a separate location in the disk, example - programs, services, texts, images and so on
+
+4.2. Directories and Sub-directories
+---------------------
+- `Directory or Folder within a directory is called a Sub-directory`
+- `Each directory can contain multiple directories/folders (called as sub-directories/sub-folders) and/or files (tree structure)`
+- In the Unix/Linux operating system, a directory is also a file containing the names of other files
+- The structure of directories having sub-directories along with files are called as tree recursive structure
+- All type of operations are possible for directories and files such as create, delete, copy, move, link, print, spit, and so on
+- A directory can be a file, but a file cannot be a directory since the file contains the information/records (metadata) and directory contains sub-directories and files
+
+4.3. Types of Files
+---------------------
+4.3. File System in Unix
+---------------------
+
+Data in Unix are organized into files and the files are further organized into directories.
+
+The main file types in UNIX are (In Unix, there are three basic types of files):
+- Regular or Ordinary File
+- Directory file
+- Device or Special File
+  - Raw or Character Device File
+  - Block File
+  - Named Pipes or FIFO
+  - Link
+  - Socket
+
+### 4.3.1. Regular or Ordinary File
+> Regular or Ordinary File
+
+- `An ordinary or Regular Files is a file on the system that contains data, text, or program instructions/executable programs`
+- Executable programs are the commands (`ls`, `pwd`) or scripts (`a.sh`, `setup.sh`) that we enter on the prompt
+- Data can be anything, there is `no specific format enforced` in the way data is being stored
+- Ordinary Files contain `ASCII (human-readable)` text, executable program binaries, program data, and much more information
+- A regular file is the one that is not a directory or link, It is called as `regular` since there is nothing special about it
+- Directories are organized into a tree-like structure called `files system`
+- Regular files can be `visualized as the leaves in the Unix tree`
+
+### 4.3.2. Directory file
+> Directory file
+
+- Directories are files that `contain other files and sub-directories`
+- Directories store both special and ordinary files, For Windows or Mac OS users, Unix directories are equivalent to folders (Directories are just like folders in Windows operating system)
+- Directories are used to organize the data by keeping closely related files all at the same place
+- Kernel alone can write the directory file. When a file is added or deleted from the directory, the kernel will make an entry
+- A directory is a binary file used to track and locate other files and directories
+- The binary format is used so that directories containing large numbers of filenames can be searched quickly
+- In a directory file, we cannot directly keep contents, records, or any information
+- A directory file can be `visualized as a branch of the Unix tree`
+
+### 4.3.3. Device or Special File
+> Device or Special File
+
+- Device or special files `represent the physical devices`
+- They are used for the device I/O on Unix and Linux systems (external USB drives)
+- They appear in the file system just like an ordinary file or a directory
+- This type of files allow access to various devices known to the system
+- Some special files provide access to hardware such as CD-ROM drives, Tape, Disc/Hard drives, Players, Modems, Ethernet Adapters, Network Interfaces, Scanners, Printers, Terminals and so on
+- Other special files are similar to aliases or shortcuts and enable you to access a single file using different names
+- When a process writes to a special file, the data is sent to the physical device associated with it
+- Special files are not exactly files but are pointers that point to the device drivers located in the kernel
+- Protection applicable to files are also applicable for physical devices
+
+> Raw or Character Device File
+  - When a character special file is used to the device I/O, `data is transferred one character at a time`
+  - This type of access is called raw device access and is present in `/dev`
+  - Provides a serial stream of input or output
+  - Example - `Terminals`
+
+> Block File
+  - Block special file is used for the device I/O, `data is transferred in large fixed-sized blocks`
+  - These files are hardware files, most of which are present in `/dev`
+
+> Named Pipes or FIFO
+  - The pipe is also called as `Named Pipe` or `FIFO (First In First Out)`
+  - Pipes represent one of the simpler forms of Unix Inter-Process Communication
+  - The purpose of `Pipe` is to connect I/O of two Unix processes accessing the pipe,  one of the processes uses it for output while the other one uses it for input
+
+> Link
+  - it is used for `referencing some other file of the filesystem along with the path to the referenced file`
+  - They are either directory or regular file
+
+> Socket
+  - A socket file is used to `pass information between applications for communication purpose`
+  - We can create a socket file by using `socket()` system call 
+  - A UNIX socket also called `IPC socket (Inter-Process Communication socket)`, is a special file that allows for advanced Inter-Process Communication
+  - It is similar to network stream/sockets, and all the transactions are local to the filesystem
+
+4.4. Representation of File Types
+---------------------
+Given below is a table that lists the character representation for each type of files:
+
+| Representation                     |      File Type                       |
+| ---------------------------------- | ------------------------------------ |
+| -                                  | Ordinary or Regular file              |
+| D                                  | Directory                            |
+| C                                  | Character Special File               |
+| B                                  | Block special File                   |
+| L                                  | Symbolic link                        |
+| P                                  | Named pipe                           |
+| S                                  | Socket                               |
+|                                    |                                      | 
+
+```
+
+File types can be determined by using a `file` command
+
+Syntax: $ file filename, 
+        $ file *
+
+```
+
+```
+
+ALIPL1008:resources dinanath$ file _1_html-proforma.html
+
+_1_html-proforma.html: HTML document text, ASCII text
+
+```
+
+```
+
+ALIPL1008:resources dinanath$ file *
+
+_1_html-proforma.html:                            HTML document text, ASCII text
+_1_notes-proforma.md:                             ASCII text
+agile:                                            directory
+bootstrap:                                        directory
+cloud-computing:                                  directory
+devops:                                           directory
+
+```
+
+4.5. Rules for Naming a File Directory
+---------------------
+
+File/Directory has a name by which it is identified on the system
+
+Given below are the general rules to be followed for naming a file or a directory:
+
+- The length of a filename should be upto `255 characters/bytes` with combinations of any characters or numbers without givin space or tab
+  - File and directory name should not contain any special characters as mentioned below:
+    - List of special characters not allowed/used in file/directory naming convensions: ` ~ ! @ # $ % ^ & * ( ) [ ] + = { } | [ ] \ < > ? , . / ; ' : "`
+    - `Dash -` or `Underscore _` symbol is used to separate logical words
+      > example: file-name.txt, file_name.txt
+    - `DOT .` symbol is used to separate a file type extension/the last name
+    - File names are case-sensitive, so it can be with the upper case as well as lower case
+    - A file or a directory name should not be any UNIX command name
+    - The filename starts with a `DOT .` will be a hidden file
+    - File names must be unique inside the directory
+    - Files and directories should be arranged hierarchically as per the requirements in a tree like-structure
+
+4.6. Terms used in a directory
+---------------------
+
+Following are the terms used in a directory:
+- Root Directory
+- Home Directory
+- Current or Present Directory
+- The parent or Previous Directory
+
+> Root Directory
+  - `Root Directory is the apex/origin directory`
+  - In Unix and Unix-like operating systems, the root directory is the `first or top-most directory in a hierarchy`
+  - The root directory is a topmost directory, no directory exists above the root directory
+  - It is represented by `forward slash /` symbol
+
+> Home Directory
+  - `It is the base or login directory provided to the user`
+  - `Name of a home directory is usually same the user's login name (login id or user name)`
+  - It is the directory on Unix-like operating systems that serves as the repository for a user's personal files, directories, and programs
+  - Every user has a home directory
+  - In environment variables, `$HOME` is used for displaying the path of the home directory
+  - Home Directory is represented by `tilde ~` symbol
+
+> Current or Present Directory
+  - Current or Present Directory is a directory in which a `user is currently working in`
+  - Command `pwd` is used for displaying the current directory path
+
+> Parent or Previous Directory
+  - The parent or previous directory is `one level higher than the current directory`
+  - Every directory has a present directory expect the root directory
+  - It is represented by `two executive dots ..` symbol
+  - Command `cd ..` is used to go to one level up ie Parent or Previous Directory
+
+4.7. Types of Path Name
+---------------------
+
+1. Absolute/Full Path
+2. Relative/Reference Path
+> Absolute/Full Path
+  - The pathname that `starts with the root directory` `/` is called Absolute/Full Path (it starts with `c:/`, `d:/` or so on, its hardcoded/static full path)
+
+> Relative/Reference Path
+  - Relative path name `begins with the current directory or home directory`
+  - A relative path can begin with `..` or `.` for the current directory (its reference path from current directory/location)
+  
