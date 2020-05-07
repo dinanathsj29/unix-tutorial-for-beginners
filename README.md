@@ -118,7 +118,10 @@ Topics included/covered
 6. [Unix vs Linux](#6-unix-vs-linux) | [Difference between Unix and Linux](#6-difference-between-unix-and-linux)
     - 6.1. [What is Linux](#61-what-is-Linux)
     - 6.2. [Unix vs Linux](#62-unix-vs-linux)
-    
+ 7. [Introduction to Ubuntu](#7-introduction-to-Ubuntu) | [Getting started with Ubuntu](#7-getting-started-with-Ubuntu)
+    - 7.1. [What is Ubuntu?](#71-what-is-ubuntu)
+    - 7.2. [Features of Ubuntu](#72-features-of-ubuntu)
+   
 1 Introduction to Operating System
 =====================
 
@@ -856,3 +859,34 @@ In this section/module will find head to head differences and similarities betwe
 | **GUI Graphical User Interface**: <br/>  Unix initially was a Command based OS, but now it also comes with GUI knows as `Common Desktop Environment` and `Gnome`  | Linx provides two GUIs like `KDE and Gnome, But have many such as LXDE, Xfce, Unity, Mate, TWM` etc.  |
 | **License and Pricing**: <br/> Different flavors of Unix have different cost/pricing structures as per the vendors  | <br/> Linux is freely distributed and downloaded through varieties of Magazines, Books and websites, etc. There are some paid versions also but pretty cheaper than windows OS  |
 |                                    | |
+
+7 Introduction to Ubuntu
+=====================
+7 Getting started with Ubuntu
+=====================
+
+<p align="center">
+ <img src="_images-unix/ubuntu-logo-1.png" alt="Ubuntu" title="Ubuntu" width="200" />
+</p>
+
+7.1. What is ubuntu?
+---------------------
+
+- `Ubuntu` is one of the popular and widely used variant/variety of Unix 
+- `Ubuntu Linux` is one of the flavors of the Linux Operating System
+- `Ubuntu` is a free Operating System which can run on PC or Laptop instead of Windows or OSX
+- It is pretty safe, hugely powerful fun and open-source Operating System
+- The `Ubuntu` is an ancient Zulu and Xhosa word which means `Humanity to others`
+- The word `Ubuntu` has its origin in the `Bantu` language of `South Africa`
+
+7.2. Features of Ubuntu
+---------------------
+
+- It is free and open source
+- It is easy to install and use
+- It looks beautiful and stylish
+- It is faster on modern computers with high-end configuration (as it requires less amount of resources)
+- It is no major viruses, so it is pretty safe ie. secure
+- Ubuntu is updated every six months with extra features and utilities
+- It easily integrates with the existing network
+- Ubuntu is the most popular Linux distribution
