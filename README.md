@@ -82,7 +82,7 @@ Prerequisites for current course / What you need to know
 Topics included/covered
 =====================
 1. [Introduction to Operating System](#1-introduction-to-operating-system)
-    - 1.1. [What is OS (Operating System)](#11-what-is-the-operating-system)
+    - 1.1. [What is OS (Operating System)?](#11-what-is-the-operating-system)
     - 1.2. [Functions of Operating System](#12-functions-of-operating-system)
     - 1.3. [Popular Operating System](#13-popular-operating-system)
 2. [Introduction to Unix](#2-introduction-to-unix)
@@ -105,7 +105,7 @@ Topics included/covered
     - 4.6. [Terms used in a directory](#46-terms-used-in-a-directory)
     - 4.7. [Types of Path Name](#47-types-of-path-name)
 5. [Unix Command](#5-unix-command)
-    - 5.1. [What is command](#51-what-is-command) | [Unix Command usage](#51-unix-command-usage)
+    - 5.1. [What is command?](#51-what-is-command) | [Unix Command usage](#51-unix-command-usage)
     - 5.2. [Rules of using Unix Commands](#52-rules-of-using-unix-commands)
     - 5.3. [Types of Unix Commands](#53-types-of-unix-commands)
     - 5.4. [cal](#54-cal)
@@ -116,7 +116,7 @@ Topics included/covered
     - 5.9. [fg](#59-fg)
     - 5.10. [ls](#510-ls) | [Listing Files](#510-listing-files)
 6. [Unix vs Linux](#6-unix-vs-linux) | [Difference between Unix and Linux](#6-difference-between-unix-and-linux)
-    - 6.1. [What is Linux](#61-what-is-Linux)
+    - 6.1. [What is Linux?](#61-what-is-Linux)
     - 6.2. [Unix vs Linux](#62-unix-vs-linux)
  7. [Introduction to Ubuntu](#7-introduction-to-Ubuntu) | [Getting started with Ubuntu](#7-getting-started-with-Ubuntu)
     - 7.1. [What is Ubuntu?](#71-what-is-ubuntu)
@@ -127,9 +127,9 @@ Topics included/covered
 
 In this section, you will be able to understand the fundamentals of Operating Systems, its functions and various Operating Systems used in the world.
 
-1.1. What is the Operating System
+1.1. What is the Operating System?
 ---------------------
-1.1. What is OS (Operating System)
+1.1. What is OS (Operating System)?
 ---------------------
 
 <p>
@@ -635,7 +635,7 @@ Following are the terms used in a directory:
 
 This section will discuss about UNIX commands - what is a command?, what structure we need to follow while using some of the basic Unix commands. Also will see and use some basic/essential Unix commands:
 
-5.1. What is command
+5.1. What is command?
 ---------------------
 5.1. Unix Command usage
 ---------------------
